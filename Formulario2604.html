@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ejemplos</title>
+</head>
+<body>
+    <main>
+        <form action="fin-formulario.js" method="POST">
+            <h1>RED SOCIAL--INGRESE SUS DATOS</h1>
+            <br>
+            <label for="name">Nombre completo</label>
+            <br>
+            <input type="text" name="name" id="nombre" placeholder="Ingrese su nombre">
+            <br><br>
+
+            <label for="name">Apellidos completos</label>
+            <br>
+            <input type="text" name="name" id="apellidos" placeholder="Ingrese su nombre">
+            <br><br>
+
+            <label for="correo">Correo electrónico</label>
+            <br>
+            <input type="text" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
+            <br><br>
+
+            <label for="password">Ingrese contraseña</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Ingrese su contraseña escogida">
+            <br><br>
+
+            <label for="password">Confirme contraseña</label>
+            <br>
+            <input type="password" name="password" id="repeat password" placeholder="Confirme su contraseña">
+            <br><br>
+
+            <label for="telefono">Número de teléfono</label>
+            <br>
+            <input type="tel" name ="telefono" id="telefono" placeholder="Ingrese su número de teléfono" maxlength="9" minlength="8">
+            <br><br>
+
+            <label for="date">Fecha de nacimiento</label>
+            <br>
+            <input type="date" name ="date" id="nacimiento">
+            <br><br>
+
+            <h2>Seleccione sexo</h2>
+            <input type="radio" name="Sexo" id="masculino" value="masculino">
+            <label for="Masculino">Masculino</label>
+            <br>
+            <input type="radio" name="Sexo" id="femenino" value="femenino" >
+            <label for="Femenino">Femenino</label>
+            <br>
+            <label><input type="radio" name="Sexo" id="otros" value="otros">Otros</label>
+            <br>
+            <label for="name">Ingrese su tendencia</label>
+            <br>
+            <input type="text" name="name" placeholder="Ingrese su tendencia">
+            <br><br>
+
+            <label for="fotodeperfil">Seleccione foto de perfil</label><br>
+            <input type="file" name="fotodeperfil" id="fotodeperfil" accept="image/jpg">
+            <br><br>
+
+            <label for="musica">Seleccione su estilo de música favorita</label><br>
+            <select id="musica" name="listamusica" form="listamusical">
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="salsa">Salsa</option>
+            <option value="clasica">Clásica</option>
+            <option value="Reggeaton">Reggeaton</option>
+            <option value="sinestilo">No tengo un estilo favorito</option>
+            </select>
+            <br><br>
+            
+            <label for="descripcion">Descripción personal</label><br>
+            <textarea id="descripcion" rows="4" cols="50">Ingrese una breve descripción</textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">      
+        
+        </form>
+    </main>
+    
+</body>
+</html>
