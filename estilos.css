@@ -1,0 +1,24 @@
+h1{
+    color:darkblue;font-size: 30px; 
+}
+h2 {
+    color: red;
+}
+#unico{
+    color:green;font-size: 40px;
+}
+.prueba{
+    color:yellow;
+}
+.fondo{
+    background: #444 ;
+}
+#colores{
+    color:red;
+}
+.fondos{
+    background: tomato;
+}
+#prueba{
+    color:slateblue;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos IEEE UNFV</title>
+</head>
+<body>
+    <main>
+        <form action="fin-formulario.js" method="POST">
+            <h1>RAMA ESTUDIANTIL IEEE UNFV-REGISTRO DE PREGUNTAS</h1>
+            <br>
+            <label for="name">Nombre completo</label>
+            <br>
+            <input type="text" name="name" id="nombre" placeholder="Ingrese su nombre">
+            <br><br>
+
+            <label for="name">Apellidos completos</label>
+            <br>
+            <input type="text" name="name" id="apellidos" placeholder="Ingrese su nombre">
+            <br><br>
+
+            <label for="correo">Correo electrónico</label>
+            <br>
+            <input type="text" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
+            <br><br>
+
+            <label for="telefono">Número de teléfono</label>
+            <br>
+            <input type="tel" name ="telefono" id="telefono" placeholder="Ingrese su número de teléfono" maxlength="9" minlength="8">
+            <br><br>
+
+            <h3>Seleccione sexo</h3>
+            <input type="radio" name="Sexo" id="masculino" value="masculino">
+            <label for="Masculino">Masculino</label>
+            <br>
+            <input type="radio" name="Sexo" id="femenino" value="femenino" >
+            <label for="Femenino">Femenino</label>
+            <br>
+            <label><input type="radio" name="Sexo" id="otros" value="otros">Otros</label>
+            <br>
+            <label for="name">Ingrese su tendencia</label>
+            <br>
+            <input type="text" name="name" placeholder="Ingrese su tendencia">
+            <br><br>
+
+            <label for="universidad">Seleccione su universidad</label><br>
+            <select id="univ" name="univers" form="universid">
+            <option value="u1">Universidad Nacional Federico Villareal</option>
+            <option value="u2">Universidad Nacional Mayor de San Marcos</option>
+            <option value="u3">Universidad Nacional de Ingeniería</option>
+            <option value="u4">Pontificia Universidad Católica del Perú</option>
+            <option value="u5">Universidad Privadad de Ciencias Aplicadas</option>
+            <option value="u6">Ninguna opción es mi universidad</option>
+            </select><br>
+
+            <h3>¿Pertenece usted a alguna Rama Estudiantil IEEE en el Perú?</h2>
+            <input type="radio" name="cuestion" id="positivo" value="afirmativo">
+            <label for="afirmativ">Si</label>
+            <br>
+            <input type="radio" name="cuestion" id="negativo" value="negado" >
+            <label for="negativ">No</label>
+            <br>
+
+
+
+            <label for="interes">Seleccione la opción de su interés</label><br>
+            <select id="interess" name="listainteres" form="listaintereses">
+            <option value="duda1">Quiero pertenecer a su grupo estudiantil</option>
+            <option value="duda2">Quiero obtener información adicional</option>
+            <option value="duda3">Quisiera saber sobre los proyectos que realizan</option>
+            <option value="duda4">Quiero obtener información sobre los eventos</option>
+            <option value="duda5">Quiero saber los beneficios de pertenecer a su equipo</option>
+            <option value="duda6">Ninguna opción es la que quisiera preguntar</option>
+            </select>
+            <br><br>
+            
+            <label for="descripcion">Describanos su duda</label><br>
+            <textarea id="descripcion" rows="4" cols="50">Ingrese una breve descripción</textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">      
+        
+        </form>
+    </main>
+    
+</body>
+</html>
